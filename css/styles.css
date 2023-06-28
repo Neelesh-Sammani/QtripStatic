@@ -55,6 +55,7 @@ footer {
   overflow: hidden;
   color: white;
   display: flex;
+  padding: 16px;
   justify-content: center;
   align-items: flex-end;
 }

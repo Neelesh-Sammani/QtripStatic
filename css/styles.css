@@ -37,9 +37,8 @@ footer {
   background: #999;
   margin: 20px 0px;
 }
-
 .content {
-  padding: 20px 0px;
+  padding: 2rem;
   /* display: flex; */
   /* flex-wrap: wrap; */
 }
@@ -121,14 +120,18 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height: 22rem;
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height: 80%;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
+  cursor: pointer;
 }
 
 /* ================================== */
@@ -138,6 +141,8 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  height: 20%;
+  padding: 1rem;
 
 }
 
